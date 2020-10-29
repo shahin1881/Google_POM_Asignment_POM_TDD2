@@ -1,0 +1,4 @@
+# Created at 2020-10-06T17:36:12.386
+Boot Manifest-JAR contains absolute paths in classpath 'D:\MAVEN2\MVN_PROJECT\Google_POM_Assignment_POM_TDD2\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

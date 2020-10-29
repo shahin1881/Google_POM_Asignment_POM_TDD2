@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+     <class name="com.qa.GmailTestCases.Google_11_PageTest"/>
+      <class name="com.qa.GmailTestCases.Google_12_PageTest"/>
+      <class name="com.qa.GmailTestCases.Google_13_PageTest"/>
+       <class name="com.qa.GmailTestCases.Google_14_PageTest"/>
+       <class name="com.qa.GmailTestCases.Google_15_PageTest"/>
+       <class name="com.qa.GmailTestCases.Google_16_PageTest"/>
+       
+         <class name="com.qa.GmailTestCases.Google_17_PageTest"/>
+         <class name="com.qa.GmailTestCases.Google_18_PageTest"/> 
+         <class name="com.qa.GmailTestCases.Google_19_PageTest"/>
+        <!--  <class name="com.qa.GmailTestCases.Google_20_PageTest"/> -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

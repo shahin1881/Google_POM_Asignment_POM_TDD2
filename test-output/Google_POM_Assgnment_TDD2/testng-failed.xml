@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Google_POM_Assgnment_TDD2]">
+  <test name="GmailTest(failed)">
+    <classes>
+      <class name="com.qa.GmailTestCases.Google_11_PageTest">
+        <methods>
+          <include name="doLogin" invocation-numbers="0"/>
+          <include name="isSkip"/>
+          <include name="QuitDriver"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.qa.GmailTestCases.Google_11_PageTest -->
+      <class name="com.qa.GmailTestCases.Google_12_PageTest">
+        <methods>
+          <include name="UnreadEmailCount"/>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- com.qa.GmailTestCases.Google_12_PageTest -->
+    </classes>
+  </test> <!-- GmailTest(failed) -->
+</suite> <!-- Failed suite [Google_POM_Assgnment_TDD2] -->

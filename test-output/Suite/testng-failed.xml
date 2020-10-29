@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.qa.GmailTestCases.Google_19_PageTest">
+        <methods>
+          <include name="Emailmovetolabelbox"/>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- com.qa.GmailTestCases.Google_19_PageTest -->
+      <class name="com.qa.GmailTestCases.Google_13_PageTest">
+        <methods>
+          <include name="isSkip"/>
+          <include name="gmailcomposeTest"/>
+        </methods>
+      </class> <!-- com.qa.GmailTestCases.Google_13_PageTest -->
+      <class name="com.qa.GmailTestCases.Google_18_PageTest">
+        <methods>
+          <include name="isSkip"/>
+          <include name="CreateNewLabel"/>
+        </methods>
+      </class> <!-- com.qa.GmailTestCases.Google_18_PageTest -->
+      <class name="com.qa.GmailTestCases.Google_12_PageTest">
+        <methods>
+          <include name="UnreadEmailCount"/>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- com.qa.GmailTestCases.Google_12_PageTest -->
+      <class name="com.qa.GmailTestCases.Google_11_PageTest">
+        <methods>
+          <include name="isSkip"/>
+          <include name="QuitDriver"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.qa.GmailTestCases.Google_11_PageTest -->
+      <class name="com.qa.GmailTestCases.Google_14_PageTest">
+        <methods>
+          <include name="isSkip"/>
+          <include name="Sendemailverify"/>
+        </methods>
+      </class> <!-- com.qa.GmailTestCases.Google_14_PageTest -->
+      <class name="com.qa.GmailTestCases.Google_15_PageTest">
+        <methods>
+          <include name="VerifySearchEmailInbox"/>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- com.qa.GmailTestCases.Google_15_PageTest -->
+      <class name="com.qa.GmailTestCases.Google_16_PageTest">
+        <methods>
+          <include name="isSkip"/>
+          <include name="VerifyAttechmentfileinboxmail"/>
+        </methods>
+      </class> <!-- com.qa.GmailTestCases.Google_16_PageTest -->
+      <class name="com.qa.GmailTestCases.Google_17_PageTest">
+        <methods>
+          <include name="isSkip"/>
+          <include name="VerifyCreateNewLabelLink"/>
+        </methods>
+      </class> <!-- com.qa.GmailTestCases.Google_17_PageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

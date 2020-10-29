@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Google_POM_Assgnment_TDD2" duration-ms="40358" started-at="2020-10-06T17:36:26 IST" finished-at="2020-10-06T17:37:07 IST">
+    <groups>
+    </groups>
+    <test name="GmailTest" duration-ms="40358" started-at="2020-10-06T17:36:26 IST" finished-at="2020-10-06T17:37:07 IST">
+      <class name="com.qa.GmailTestCases.Google_11_PageTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.qa.GmailTestCases.Google_11_PageTest@4d95d2a2]" name="init" is-config="true" duration-ms="9989" started-at="2020-10-06T17:36:16 IST" finished-at="2020-10-06T17:36:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="isSkip()[pri:0, instance:com.qa.GmailTestCases.Google_11_PageTest@4d95d2a2]" name="isSkip" is-config="true" duration-ms="1062" started-at="2020-10-06T17:36:26 IST" finished-at="2020-10-06T17:36:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSkip -->
+        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:com.qa.GmailTestCases.Google_11_PageTest@4d95d2a2]" name="doLogin" duration-ms="39173" started-at="2020-10-06T17:36:27 IST" data-provider="getData" finished-at="2020-10-06T17:37:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shahinsayyed793@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[shahin@#123#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="QuitDriver()[pri:0, instance:com.qa.GmailTestCases.Google_11_PageTest@4d95d2a2]" name="QuitDriver" is-config="true" duration-ms="0" started-at="2020-10-06T17:37:07 IST" finished-at="2020-10-06T17:37:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitDriver -->
+      </class> <!-- com.qa.GmailTestCases.Google_11_PageTest -->
+    </test> <!-- GmailTest -->
+  </suite> <!-- Google_POM_Assgnment_TDD2 -->
+</testng-results>
